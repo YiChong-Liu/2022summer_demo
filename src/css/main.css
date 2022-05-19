@@ -14,8 +14,10 @@ a {
     box-sizing: border-box;
 }
 
-/* global styling */
 
+.img-layout {
+    width: 80%;
+}
 
 .text-secondary {
     color: #adb5bd;
@@ -43,14 +45,45 @@ a {
     margin: auto;
 }
 
-.img1 {
-    width: 100%;
-}
 
 .text-title {
-    font-family: 'DM Sans',sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-weight: bold;
 }
+
+.secondary-title {
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+
+.btn {
+    padding: 15px 20px;
+    border: none;
+}
+
+.btn-primary {
+    border-radius: 4px;
+    background-color: green;
+}
+
+.display-1 {
+    font-size: 22px;
+}
+
+.display-2 {
+    font-size: 16px;
+}
+.display-3 {
+    font-size: 14px;
+}
+
+
 /* section styling */
 .navbar {
     position: relative;
@@ -102,11 +135,11 @@ a {
 /* Main Section */
 
 #site-main {
-    margin-top:8em;
+    margin-top: 8em;
 }
 
 #posts {
-    margin-bottom:5em;
+    margin-bottom: 5em;
 }
 
 .grid {
@@ -114,10 +147,10 @@ a {
 }
 
 .grid .grid-item {
-    width:calc(33.333% - 20px);
-    margin-bottom:3em;
+    width: calc(33.333% - 20px);
+    margin-bottom: 1%;
 }
-/* Media Query */
+
 
 @media (max-width:992px) {
     .navbar {
@@ -133,7 +166,7 @@ a {
     .collapse {
         max-height: 0;
         overflow: hidden;
-        transition:all 0.8s cubic-bezier(0.94,-0.01, 0.1, 1.25);
+        transition: all 0.8s cubic-bezier(0.94, -0.01, 0.1, 1.25);
     }
 
     .collapse.nav-link {
